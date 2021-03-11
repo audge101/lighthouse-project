@@ -1,0 +1,27 @@
+.Team {
+  margin-top: -38px;
+ 	background: linear-gradient(-45deg, #eeb462, #dc8665, #f37335, #fdc830);
+	background-size: 300% 300%;
+	animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.Team h2 {
+	padding-top: 45px;
+}
+
+.Team .card-title {
+	font-weight: 400;
+}
+

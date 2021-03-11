@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+.Toolbar {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-stretch: semi-expanded;
+  font-size: 40px;
+  float: left;
+  margin-left: 10px;
+}
+
+.Toolbar .a {
+	font-size: 32px;
+}

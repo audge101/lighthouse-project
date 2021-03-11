@@ -1,0 +1,22 @@
+.About {
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center;
+}
+
+@media (min-width: 1221px) {
+  .About img {
+	width: 100%;
+  }	
+}
+
+
+@media (max-width: 1220px) {
+	.About img {
+		height: 100%;
+		overflow: none;
+	}
+}
