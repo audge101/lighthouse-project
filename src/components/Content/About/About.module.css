@@ -1,11 +1,3 @@
-.About {
-  margin-top: 0px;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-position: center;
-}
 
 @media (min-width: 1221px) {
   .About img {
@@ -17,6 +9,31 @@
 @media (max-width: 1220px) {
 	.About img {
 		height: 100%;
-		overflow: none;
 	}
+}
+
+@media (max-width: 400px) {
+	.About .LighthouseImg {
+		padding-right: 300px;
+	}
+}
+
+@media (min-width: 1399px) {
+	.About .LighthouseImg {
+		margin-bottom: -220px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1222px) {
+  .About .LighthouseImg {
+	top: -150px !important;
+	object-fit: cover;
+	}	
+}
+
+@media (min-width: 1000px) and (max-width: 1220px) {
+  .About img {
+	object-fit: cover;
+	overflow: hidden
+	}	
 }

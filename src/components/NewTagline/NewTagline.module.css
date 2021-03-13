@@ -22,7 +22,7 @@ body {
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
-	font-size: 48px;
+	font-size: 47px;
 	line-height: 1;
 	margin-top: 15%;
 }
@@ -44,4 +44,17 @@ body {
 .white-mode:hover {
 	background-color: #FFF;
 	color: #122;
+}
+
+
+@media (max-height: 700px) {
+	.Title h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 281px) {
+	.Title h1 {
+		font-size: 38px;
+	}
 }

@@ -1,5 +1,7 @@
 .Team {
+  min-height: 100vh;
   margin-top: -38px;
+  width: 100%;
  	background: linear-gradient(-45deg, #eeb462, #dc8665, #f37335, #fdc830);
 	background-size: 300% 300%;
 	animation: gradient 30s ease infinite;

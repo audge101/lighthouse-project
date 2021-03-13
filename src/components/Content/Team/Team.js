@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from '../../Navigation/Footer/Footer';
 import classes from './Team.module.css';
+import roxanna from '../../../assets/images/roxanna.jpg';
 
 const team = () => (
 		<div className={classes.Team}>
@@ -23,8 +25,8 @@ const team = () => (
 				<div className="col s12 m3">
 				  	<div className="card large">
 					    <div className="card-image">
-					      <img src="https://www.w3schools.com/w3css/img_avatar3.png" />
-					      <span className="card-title">Mark Erikson</span>
+					      <img src={roxanna} />
+					      <span className="card-title">Roxanna Lewis</span>
 					    </div>
 					    <div className="card-content">
 					      <p>I am a very simple card. I am good at containing small bits of information.
@@ -127,6 +129,7 @@ const team = () => (
 				  	</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 );
 

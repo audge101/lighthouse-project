@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+/*
 a.active {
   color: rgba(211, 84, 0, 1);
 }
+*/
+a.active {
+  color: #dd2c00;
+}
+
